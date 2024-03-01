@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do</title>
+    <title>To Do Lisy App</title>
     <link rel="stylesheet" href="/index.css">
-    <script src="/index.js "></script>
+   
 </head>
 <body>
-     
+     <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="/images/task icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addData()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+     </div>
+    <script src="/index.js "></script>
 </body>
 </html>
